@@ -64,3 +64,16 @@
 /Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/obj/Debug/net5.0/Play.Catalogy.Service.csproj.CopyComplete
 /Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/obj/Debug/net5.0/Play.Catalogy.Service.genruntimeconfig.cache
 /Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/obj/Debug/net5.0/ref/Play.Catalogy.Service.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/AWSSDK.Core.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/AWSSDK.SecurityToken.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/DnsClient.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/MongoDB.Bson.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/MongoDB.Driver.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/MongoDB.Driver.Core.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/SharpCompress.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/Snappier.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/ZstdSharp.dll
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/runtimes/linux/native/libmongocrypt.so
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/hanaf/Development/DotNet-Projects/PlayCatalogy/src/Play.Catalogy.Service/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
