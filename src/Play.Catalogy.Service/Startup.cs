@@ -18,6 +18,7 @@ using Play.Catalogy.Service.Settings;
 using Play.Catalogy.Service.Settins;
 using MongoDB.Driver;
 using Play.Catalogy.Service.Repositories;
+using Play.Catalogy.Service.Entity;
 
 namespace Play.Catalogy.Service
 {
@@ -36,19 +37,11 @@ namespace Play.Catalogy.Service
         public void ConfigureServices(IServiceCollection services)
         {
 
-            BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
-            BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(BsonType.String));
 
             serviceSetting = Configuration.GetSection(nameof(ServiceSetting)).Get<ServiceSetting>();
 
-            services.AddSingleton(serviceProvider =>
-            {
-                var mongoDbsettings = Configuration.GetSection(nameof(MongoDbSettings)).Get<MongoDbSettings>();
-                var mongoClient = new MongoClient(mongoDbsettings.ConnectionString);
-                return mongoClient.GetDatabase(serviceSetting.ServiceName);
-            });
-
-            services.AddSingleton<IItemRepository, ItemRepository>();
+            services.AddMongo()
+            .AddMongorepository<Item>("items");
 
             services.AddControllers(options =>
             {
