@@ -9,16 +9,15 @@ using Play.Catalogy.Service.Entity;
 
 namespace Play.Catalogy.Service.Repositories
 {
-    public class ItemRepository
+
+    public class ItemRepository : IItemRepository
     {
         private const string collectionName = "items";
         private readonly IMongoCollection<Item> dbCollection;
         private readonly FilterDefinitionBuilder<Item> filterBuilder = Builders<Item>.Filter;
 
-        public ItemRepository()
+        public ItemRepository(IMongoDatabase database)
         {
-            var mongoClient = new MongoClient("mongodb://localhost:27017");
-            var database = mongoClient.GetDatabase("Catalogy");
             dbCollection = database.GetCollection<Item>(collectionName);
         }
 
